@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Indie';
+    src: url(indie.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,27 +16,30 @@ body {
     width: 100%;
     margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: url("../dist/restaurant.jpg");
     background-size: no-repeat;
     padding-top: 15px;
 }
 #content {
+    padding-top: 40px;
     width: 70%;
     background-color: white;
     opacity: 70%;
     display: flex;
-    justify-content: center;
-    height: 950px;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
     
 }
 
 .navbar {
-    width: 100%;
+    width: 70%;
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    align-items: start;
     background-color: gray;
     opacity: 80%;
 }
@@ -44,4 +52,12 @@ body {
     height: 50px;
     width: 100%;
     font-size: 25px;
+}
+
+.description {
+    
+    height: 200px;
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Indie';
 }

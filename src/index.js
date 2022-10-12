@@ -4,10 +4,11 @@ import printMenu from "./printMenu.js";
 import printContact from "./printContact.js";
 
 const content = document.querySelector("#content");
-
+const body = document.querySelector("body");
 const navbar = document.createElement("div");
 navbar.className = "navbar";
-content.appendChild(navbar);
+
+body.insertBefore(navbar, content);
 
 const home = document.createElement("div");
 home.className = "home";
