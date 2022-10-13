@@ -75,6 +75,6 @@ export default function printMenu() {
 
     const foodAbout3 = document.createElement("p");
     foodAbout3.className = "foodAbout";
-    foodAbout3.innerHTML = ""
+    foodAbout3.innerHTML = "A baked dish originating in Italy, which consists of a flat, round, crispy leavened dough covered with a layer of sauce and a layer of one or more toppings, such as meat, seafood, vegetables, and fruit, which is often topped with a layer of cheese. A popular dish served for all types of occassions and meals";
     foodDescription3.appendChild(foodAbout3);
 }

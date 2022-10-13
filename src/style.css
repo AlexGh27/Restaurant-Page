@@ -23,7 +23,7 @@ body {
     padding-top: 15px;
 }
 #content {
-    padding-top: 40px;
+    padding-top: 60px;
     width: 70%;
     background-color: white;
     opacity: 70%;
@@ -69,7 +69,7 @@ body {
 }
 
 .food {
-    height: 220px;
+    height: 20%;
     width: 80%;
     font-size: 25px;
     display: flex;
@@ -78,6 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    
 }
 
 .food_image {
@@ -88,12 +89,12 @@ body {
 .foodDescription {
     height: 200px;
     width: 75%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
     gap: 0px;
+    
 }
 
 .foodPrice {
@@ -110,3 +111,8 @@ body {
     font-family: 'Indie';
 }
 
+.firstContact {
+    width: 80%;
+    height: 200px;
+    
+}
