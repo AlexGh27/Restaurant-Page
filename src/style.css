@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 900px;
-    
+    gap: 30px;
 }
 
 .navbar {
@@ -54,10 +54,59 @@ body {
     font-size: 25px;
 }
 
-.description {
-    
+.description { 
     height: 200px;
     width: 80%;
     font-size: 25px;
     font-family: 'Indie';
 }
+
+.home:hover,
+.menu:hover,
+.contact:hover {
+    cursor: pointer;
+    background-color: rgb(90, 90, 90);
+}
+
+.food {
+    height: 220px;
+    width: 80%;
+    font-size: 25px;
+    display: flex;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.food_image {
+    height: 190px;
+    width: 190px;
+}
+
+.foodDescription {
+    height: 200px;
+    width: 75%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 0px;
+}
+
+.foodPrice {
+    font-size: 40px;
+    height: 1em;
+    width: 1em;
+    margin-top: 10px;
+}
+
+.foodAbout {
+    height: 140px;
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Indie';
+}
+
